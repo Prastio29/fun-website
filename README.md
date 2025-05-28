@@ -1,2 +1,2 @@
-# fun-website
+# Fun-Website
 Simple Website Design
