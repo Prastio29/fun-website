@@ -1,0 +1,236 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #800517;
+  color: white;
+  overflow-x: hidden;
+  text-shadow: 2px 2px 3px black;
+}
+
+nav {
+  background: #B21807;
+  padding: 5px;
+}
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+}
+
+nav li{
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline solid white;
+  text-shadow: 2px 2px 3px black;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  background-color: #B21807;
+  padding: 5px;
+  margin: auto;
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 20px;
+}
+
+/* LORE */
+.lore h4 {
+  font-size: 0.8em;
+  max-width: 70%;
+  padding: 10px;
+}
+
+.lore img {
+  width: 20em;
+  height: auto;
+}
+
+.level40 img {
+  width: 28em;
+  height: auto;
+}
+
+.level20, .level40, .level60, .level80 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+/* VOICE LINE */
+
+.profil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.komunikasi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.grinding {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.upgrade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.battle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+} 
+
+.intro-col {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #800517;
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.intro-col audio {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.intro-col p {
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 476px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+.vl h2 {
+  padding: 10px;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+.vl h4 {
+  padding: 10px;
+  margin: auto;
+  font-size: 0.6em;
+}
+
+.vl p {
+  padding: 10px;
+  margin: auto;
+  font-size: 0.4em;
+}
+
+@media screen and (max-width: 476px){
+  h1 {
+    font-size: 1.3em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .level20 img {
+    width:8em;
+    height: auto;
+  }
+  
+  .level20 p {
+    font-size: 0.5em;
+  }
+
+  .level40 img {
+    width:10em;
+    height: auto;
+  }
+  
+  .level40 p {
+    font-size: 0.5em;
+  }
+
+  .level60 img {
+    width:8em;
+    height: auto;
+  }
+  
+  .level60 p {
+    font-size: 0.55em;
+  }
+
+  .level80 img {
+    width:8em;
+    height: auto;
+  }
+  
+  .level80 p {
+    font-size: 0.45em;
+  }
+  
+  .intro-col {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #800517;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.intro-col audio {
+  width: 100%;
+  margin: 4px 0;
+}
+
+.intro-col p {
+  font-size: 8px;
+}
+}
