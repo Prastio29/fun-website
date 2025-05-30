@@ -4,8 +4,8 @@ const data = [
   { title: "Berpisah", audio: "voices/profile/berpisah.mp3", desc: "Ugh, kenapa mereka harus memanggilku untuk hal sepele seperti ini ... Maaf, ada urusan yang mendesak di tempat kerja, aku harus pergi sekarang!" },
   { title: "Tentang Diriku: Kampung Halaman", audio: "voices/profile/kampung.mp3", desc: "Eh, lirik lagu itu bagaimana ya kalimatnya? 'Tempat yang tak bisa kau datangi kembali disebut rumah.' Yah, mungkin terdengar dramatis, tapi sebenarnya, aku memang sudah lama tidak pulang ke rumah ... dan sejujurnya, aku memang tidak ingin pulang." },
   { title: "Tentang Diriku: Pekerjaan", audio: "voices/profile/pekerjaan.mp3", desc: "Melindungi kepentingan sebagian besar orang adalah alasan mengapa aku memilih jalur karier ini. IPC telah memberiku platform yang sangat baik untuk mengejar tujuanku ... dan untuk itu, aku tidak memiliki alasan untuk mengeluh." },
-  { title: "Mengobrol: Tempat kerja", audio: "voices/profile/ngobrol.mp3", desc: "Ada begitu banyak trik untuk berurusan dengan orang di tempat kerja yang bahkan tidak bisa kusebutkan semuanya. Tetapi aku selalu percaya bahwa bagian yang terpenting adalah tetap tulus — baik itu dengan rekan kerja atau dengan klien. Itu adalah prinsip dasarku." },
-  { title: "Hobi: Bekerja", audio: "voices/profile/hobbykerja.mp3", desc: "Sekarang sudah tahun berapa? Siapa yang masih bekerja hanya untuk uang? Uang adalah sarana, bukan tujuan. Kerja seharusnya membuatmu bahagia ... itulah prinsip paling mendasar." },
+  { title: "Mengobrol: Tempat kerja", audio: "voices/profile/kerja.mp3", desc: "Ada begitu banyak trik untuk berurusan dengan orang di tempat kerja yang bahkan tidak bisa kusebutkan semuanya. Tetapi aku selalu percaya bahwa bagian yang terpenting adalah tetap tulus — baik itu dengan rekan kerja atau dengan klien. Itu adalah prinsip dasarku." },
+  { title: "Hobi: Bekerja", audio: "voices/profile/bekerja.mp3", desc: "Sekarang sudah tahun berapa? Siapa yang masih bekerja hanya untuk uang? Uang adalah sarana, bukan tujuan. Kerja seharusnya membuatmu bahagia ... itulah prinsip paling mendasar." },
   { title: "Hobi: Hewan Kecil", audio: "voices/profile/pecintahewan.mp3", desc: "Langit yang luas penuh bintang, miliaran makhluk lucu dan ajaib .... Huff Kalaupun hanya untuk mereka, aku akan tetap bekerja keras." },
   { title: "Hal yang Memusingkan", audio: "voices/profile/memusingkan.mp3", desc: "Masalah jika terlalu mahir dalam matematika adalah, semua orang memperlakukanmu seperti kalkulator manusia. Jadi ya, itulah mengapa aku jarang mengungkap tentang keahlianku di bidang itu." },
   { title: "Curhat", audio: "voices/profile/curhat.mp3", desc: "Dulu aku berpikir makhluk dari ekosistem yang berbeda tidak akan mampu hidup bersama, jadi aku membagi rumahku menjadi beberapa zona ekologis yang berbeda, tapi sekarang ... lihat! Lihat betapa harmonisnya kedua makhluk ini! Mereka jelas berasal dari planet yang berbeda, tapi sekarang mereka sahabat karib! Keren ya!?" },
@@ -64,9 +64,9 @@ data2.forEach(item => {
 
 // GRINDING //
 const data3 = [
-  { title: "Membuka Peti", audio: "voices/grinding/topazchest2.mp3", desc: "Kerja keras berbuah hasil~"},
-  { title: "Membuka Peti Berharga", audio: "voices/grinding/topazchest1.mp3", desc: "Sedikit tambahan untuk bonus triwulanan!"},
-  { title: "Menyelesaikan Puzzle 1", audio: "voices/grinding/topazpuzzle1.mp3", desc: "Cuma tes kecil saja."},
+  { title: "Membuka Peti", audio: "voices/grinding/topazchest1.mp3", desc: "Kerja keras berbuah hasil~"},
+  { title: "Membuka Peti Berharga", audio: "voices/grinding/topazchest2.mp3", desc: "Sedikit tambahan untuk bonus triwulanan!"},
+  { title: "Menyelesaikan Puzzle 1", audio: "voices/grinding/topazpuzzle.mp3", desc: "Cuma tes kecil saja."},
   { title: "Menyelesaikan Puzzle 2", audio: "voices/grinding/topazpuzzle2.mp3", desc: "Blabla"}
 ]
 
@@ -122,7 +122,7 @@ const data5 = [
   { title: "Topaz Turn Voice 1", audio: "voices/battle/topazturn.mp3", desc: "Ini Rinciannya" },
   { title: "Topaz Turn Voice 2", audio: "voices/battle/topazturn2.mp3", desc: "Ini Rinciannya" },
   { title: "Topaz Menunggu Voice 1", audio: "voices/battle/topazturn3.mp3", desc: "Ini Rinciannya" },
-  { title: "Topaz Menunggu Voice 2", audio: "voices/battle/topazmulai.mp3", desc: "Ini Rinciannya" },
+  { title: "Topaz Menunggu Voice 2", audio: "voices/battle/topazturn4.mp3", desc: "Ini Rinciannya" },
   { title: "Topaz Menarget Lawan", audio: "voices/battle/topaztarget.mp3", desc: "Ini Rinciannya" },
   { title: "Topaz Memberikan Weakness Break", audio: "voices/battle/topazbreak.mp3", desc: "Ini pasar yang sedang naik." },
   { title: "Topaz Terkena Hit Light ATK", audio: "voices/battle/topazkenahitkecil.mp3", desc: "Tetap tenang ...." },
