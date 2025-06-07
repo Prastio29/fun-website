@@ -67,7 +67,7 @@ const data3 = [
   { title: "Membuka Peti", audio: "voices/grinding/topazchest1.mp3", desc: "Kerja keras berbuah hasil~"},
   { title: "Membuka Peti Berharga", audio: "voices/grinding/topazchest2.mp3", desc: "Sedikit tambahan untuk bonus triwulanan!"},
   { title: "Menyelesaikan Puzzle 1", audio: "voices/grinding/topazpuzzle.mp3", desc: "Cuma tes kecil saja."},
-  { title: "Menyelesaikan Puzzle 2", audio: "voices/grinding/topazpuzzle2.mp3", desc: "Blabla"}
+  { title: "Menyelesaikan Puzzle 2", audio: "voices/grinding/topazpuzzle2.mp3", desc: "Ini juga merupakan bagian dari pekerjaan."}
 ]
 
 const wrapper3 = document.getElementById("grind");
@@ -113,17 +113,17 @@ data4.forEach(item => {
 // BATTLE //
 const data5 = [
   { title: "Basic ATK", audio: "voices/battle/topazba.mp3", desc: "Masih belum bayar utang juga?" },
-  { title: "Skill Voice 1", audio: "voices/battle/topazskill1.mp3", desc: "Ini Rinciannya" },
-  { title: "Skill Voice 2", audio: "voices/battle/topazskill2.mp3", desc: "Ini Rinciannya" },
-  { title: "Skill setelah Peningkatan Voice 1", audio: "voices/battle/topazskill3.mp3", desc: "Ini Rinciannya" },
-  { title: "Skill setelah Peningkatan Voice 2", audio: "voices/battle/topazskill4.mp3", desc: "Ini Rinciannya" },
+  { title: "Skill Voice 1", audio: "voices/battle/topazskill1.mp3", desc: "Hancurkan mereka, Numby!" },
+  { title: "Skill Voice 2", audio: "voices/battle/topazskill2.mp3", desc: "Likuidasi!" },
+  { title: "Skill setelah Peningkatan Voice 1", audio: "voices/battle/topazskill3.mp3", desc: "Jangan lupa bunganya!" },
+  { title: "Skill setelah Peningkatan Voice 2", audio: "voices/battle/topazskill4.mp3", desc: "Aset disita!" },
   { title: "Ultimate: diaktifkan", audio: "voices/battle/topazulti.mp3", desc: "Pasarnya tidak bisa diprediksi ...." },
   { title: "Ultimate: dilepaskan", audio: "voices/battle/topazulti2.mp3", desc: "Hah? Benar! Berinvestasi pada kemenangan ... berarti bermain untuk jangka panjang!" },
-  { title: "Topaz Turn Voice 1", audio: "voices/battle/topazturn.mp3", desc: "Ini Rinciannya" },
-  { title: "Topaz Turn Voice 2", audio: "voices/battle/topazturn2.mp3", desc: "Ini Rinciannya" },
-  { title: "Topaz Menunggu Voice 1", audio: "voices/battle/topazturn3.mp3", desc: "Ini Rinciannya" },
-  { title: "Topaz Menunggu Voice 2", audio: "voices/battle/topazturn4.mp3", desc: "Ini Rinciannya" },
-  { title: "Topaz Menarget Lawan", audio: "voices/battle/topaztarget.mp3", desc: "Ini Rinciannya" },
+  { title: "Topaz Turn Voice 1", audio: "voices/battle/topazturn.mp3", desc: "Harus tahu risikonya ...." },
+  { title: "Topaz Turn Voice 2", audio: "voices/battle/topazturn2.mp3", desc: "Mari mulai evaluasi aset." },
+  { title: "Topaz Menunggu Voice 1", audio: "voices/battle/topazturn3.mp3", desc: "Santai, Numby! Santai~" },
+  { title: "Topaz Menunggu Voice 2", audio: "voices/battle/topazturn4.mp3", desc: "Pasar selalu berfluktuasi. Lakukanlah kapan saja saat kamu siap~" },
+  { title: "Topaz Menarget Lawan", audio: "voices/battle/topaztarget.mp3", desc: "Hei, kamu! Waktunya untuk memeriksa buku keuanganmu." },
   { title: "Topaz Memberikan Weakness Break", audio: "voices/battle/topazbreak.mp3", desc: "Ini pasar yang sedang naik." },
   { title: "Topaz Terkena Hit Light ATK", audio: "voices/battle/topazkenahitkecil.mp3", desc: "Tetap tenang ...." },
   { title: "Topaz Terkena Hit Heavy ATK", audio: "voices/battle/topazkenahitgede.mp3", desc: "Lebih baik memotong kerugian kita ...." },
