@@ -1,0 +1,250 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #800517;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+nav {
+  background: #B21807;
+  padding: 5px;
+}
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+}
+
+nav li{
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline solid white;
+  text-shadow: 2px 2px 3px black;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 476px){
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+h1 {
+  background-color: #B21807;
+  padding: 10px;
+  margin: auto;
+}
+
+h4 {
+  text-align: center;
+  
+}
+
+.chara-up {
+  padding: 20px;
+}
+
+.exp, .team1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.exp {
+  margin: 45px;
+  gap: 33px;
+}
+
+.exp img {
+  background-color: #B21807;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.arrow {
+  width: 8em;
+}
+
+.material {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  right: 20px;
+}
+
+.information {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #B21807;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.information img {
+  width: 100px;
+  height: 100px;
+}
+
+.desc {
+  background-color: #B21807;
+  padding: 0 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.amount {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+
+.material1 {
+  position: relative;
+  right: 60px;
+}
+
+.material2 {
+  position: relative;
+  right: 0;
+}
+
+.material3 {
+  position: relative;
+  right: 70px;
+}
+
+.material4 {
+  position: relative;
+  right: 0;
+}
+
+.material5 {
+  position: relative;
+  right: 60px;
+}
+
+.material6 {
+  position: relative;
+  left: 10px;
+}
+
+.material8 {
+  position: relative;
+  right: 20px;
+}
+
+.material9 {
+  position: relative;
+  right: 40px;
+}
+
+.material11 {
+  position: relative;
+  right: 70px;
+}
+
+.material12 {
+  position: relative;
+  right: 60px;
+}
+
+@media screen and (max-width: 476px) {
+  h4 {
+    font-size: 30px;
+  }
+
+  .exp {
+    gap: 50px;
+  }
+  
+  .material{
+  position: relative;
+  left: 10px;
+  }
+}
+
+.stat {
+  text-align: center;
+  font-size: 10px;
+  max-width: 500px;
+  position: relative;
+  left: 225px;
+}
+
+.stat h6 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.stat .main-stat {
+  background-color: #B21807;
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px black;
+  margin: 15px;
+}
+
+@media screen and (max-width: 476px) {
+  .stat {
+    position: relative;
+    left: 40px;
+    font-size: 15px;
+    max-width: 300px;
+  }
+
+  .stat h6 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+}
+
+.team1, .team2{
+  gap: 10px;
+  margin: 10px;
+}
+
+.team img {
+  background-color: #c99b5e;
+  padding: 0;
+}
+
+.team h5{
+  font-size: 17px;
+  margin: 0;
+  text-align: center;
+  background-color: #6e6e6e;
+}
