@@ -1,1 +1,1 @@
-<h1>Welcome to My Profile</h1>
+<h1 style="background: lightblue; text-align: center;">Welcome to My Profile</h1>
